@@ -2,10 +2,6 @@ import streamlit as st
 import requests
 import matplotlib.pyplot as plt
 import pandas as pd
-import config
-from datetime import datetime
-
-etherscan_api_key = config.etherscan_api_key
 
 
 def fetch_token_balances(wallet_address):
