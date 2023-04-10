@@ -3,6 +3,8 @@ import requests
 import matplotlib.pyplot as plt
 import pandas as pd
 
+etherscan_api_key = st.secrets["etherscan_api_key"]
+
 
 def fetch_token_balances(wallet_address):
     # Request token transfers from etherscan API
